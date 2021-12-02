@@ -1,0 +1,1 @@
+# sok_ikt_oldal
