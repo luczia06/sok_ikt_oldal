@@ -5,6 +5,36 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
 /*Lapozást működtető dolgok*/
 
 .container {
@@ -22,7 +52,7 @@
 
 /*Home*/
 
-.home {
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,78 +60,78 @@
     text-align: center;
 }
 
-.home p {
+#home p {
     padding: 50px;
 }
 
 /*Montázs*/
 
-.elso {
+#elso {
     padding: 30px;
     text-align: center;
 }
 
-.elso h1 {
+#elso h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.elso .montazs h1 {
+#elso .montazs h1 {
     font-size: 25px;
     padding: 10px;
 }
 
-.elso .montazs img {
+#elso .montazs img {
     display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.elso .montazs {
+#elso .montazs {
     height: 90%;
     border: solid black 5px;
 }
 
 /*Képre kattintós linkes feladat*/
 
-.masodik{
+#masodik{
     padding: 30px;
     text-align: center;
 }
 
-.masodik h1 {
+#masodik h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.masodik .alaplap h1 {
+#masodik .alaplap h1 {
     font-size: 25px;
     padding: 10px;
 }
 
-.masodik .alaplap h2 {
+#masodik .alaplap h2 {
     font-size: 20px;
     padding: 10px;
 }
 
-.masodik .alaplap {
+#masodik .alaplap {
     height: 90%;
     border: solid black 5px;
 }
 
 /*Órarend*/
 
-.harmadik{
+#harmadik{
     padding: 30px;
     text-align: center;
 }
 
-.harmadik h1 {
+#harmadik h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.harmadik .orarend table {
+#harmadik .orarend table {
     text-align: center;
 }
 
@@ -109,7 +139,7 @@ table tr, th, td {
     border: solid black 1px;
 }
 
-.harmadik .orarend {
+#harmadik .orarend {
     height: 90%;
     border: solid black 5px;
     display: flex;
@@ -117,24 +147,24 @@ table tr, th, td {
     justify-content: center;
 }
 
-/*Recept*/
+/*Vonalak*/
 
-.negyedik{
+#negyedik{
     padding: 30px;
     text-align: center;
 }
 
-.negyedik h1 {
+#negyedik h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.negyedik .vonalak h1 {
+#negyedik .vonalak h1 {
     padding: 0;
     font-size: 32pt;
 }
 
-.negyedik .vonalak hr {
+#negyedik .vonalak hr {
     color: black;
     background-color: black;
     margin: 55px;
@@ -147,13 +177,13 @@ table tr, th, td {
     border: solid black 5px;
 }
 
-/*Vonalak*/
+/*Recept*/
 
-.otodik{
+#otodik{
     padding: 30px;
 }
 
-.otodik h1 {
+#otodik h1 {
     font-size: 40px;
     padding: 10px;
     text-align: center;
@@ -181,7 +211,7 @@ table tr, th, td {
 
 /*Bal oldal vége*/
 
-.otodik .recept h1 {
+#otodik .recept h1 {
     font-size: 25px;
     padding: 2%;
 }
@@ -218,7 +248,7 @@ table tr, th, td {
 
 /*Ketté osztás vége*/
 
-.otodik .recept {
+#otodik .recept {
     height: 90%;
     border: solid black 5px;
 }
